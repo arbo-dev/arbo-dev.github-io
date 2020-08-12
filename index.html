@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            h1 { 
-                font-size: xx-large;
-            }
-            body { 
-                color: black;
-                background-color: orange;
-            }
-        </style>
-        <title>Arbolito</title>
-    </head>
-    <body>
-        <h1>Arbolito</h1>
-    </body>
+  <head>
+    <style>
+      h1 { 
+        font-size: xx-large;
+      }
+      body { 
+        color: black;
+        background-color: orange;
+      }
+      div.center {
+        position: relative;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      div.center img {
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+    <title>Arbolito</title>
+  </head>
+  <body>
+    <div>
+      <img src="arbo.svg" alt="Arbolito"/>
+    </div>
+  </body>
 </html>
